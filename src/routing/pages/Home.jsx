@@ -1,12 +1,10 @@
 import React from 'react'
-import Navber from '../Navber'
 
-const Home = () => {
+
+export default function Home() {
   return (
     <div>
-      <Navber/>
+     Home 
     </div>
   )
-}
-
-export default Home
+} 

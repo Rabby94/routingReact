@@ -1,10 +1,11 @@
 import React from 'react'
-import Navber from '../Navber'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
     <div>
-      <Navber/>
+      About
+      <Link to="ceo">About CEO of Semiclone it </Link>
     </div>
   )
 }

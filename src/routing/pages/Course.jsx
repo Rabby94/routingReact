@@ -4,7 +4,7 @@ import Navber from '../Navber'
 const Course = () => {
   return (
     <div>
-      <Navber/>
+     course
     </div>
   )
 }

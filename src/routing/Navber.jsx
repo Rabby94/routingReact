@@ -1,26 +1,24 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
-const Home = () => {
+const Navbar = () => {
   return (
-    <div className=''>
      <nav className="navbar navbar-expand-lg navbar-light bg-light">
        <div className="container">
-         <a href='#' className="navbar-brand  fs-2">Routing</a>
+         <NavLink  to="/" className="navbar-brand fs-2">Routing</NavLink>
          <button className="navbar-toggler">
          <span className="navbar-toggler-icon"></span>
          </button>
-         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+         <div className="collapse navbar-collapse">
            <div className="navbar-nav ms-lg-auto fs-5">
-             <a href='' className="nav-link active" aria-current="page">Home</a>
-             <a href='#' className="nav-link">Features</a>
-             <a href='#' className="nav-link">Pricing</a>
-             <a href='#'className="nav-link ">Disabled</a>
+             <NavLink to='/' className="nav-link">Home</NavLink>
+             <NavLink to='/course' className="nav-link">Course </NavLink>
+             <NavLink to='/about' className="nav-link">About</NavLink>
            </div>
          </div>
        </div>
      </nav>
-   </div>
   )
 }
 
-export default Home
+export default Navbar

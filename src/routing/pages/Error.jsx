@@ -6,9 +6,8 @@ const Error = () => {
     <div >
       <img 
         className='img-fluid w-100'
-        style={{height : "100vh"}}
+        style={{height : "90vh"}}
         src={errorImg} 
-        alt="" 
       />
     </div>
   )
